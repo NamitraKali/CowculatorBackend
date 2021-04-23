@@ -8,6 +8,7 @@ class CommonSettings(BaseSettings):
 
 class ServerSettings(BaseSettings):
     HOST: str = "0.0.0.0"
+    PORT: int = os.environ.get("PORT")
 
 
 class DatabaseSettings(BaseSettings):
