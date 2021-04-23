@@ -17,13 +17,16 @@ router = APIRouter(tags=['Posts'])
 auth_handler = AuthHandler()
 
 
+#TODO
 @router.get('/posts/{user_id}')
 async def get_posts(request: Request, username: UUID):
     for i, post in enumerate(
         posts := await request.app.mongodb['posts'].find({"_id": user_id}).to_list()
     ):
+        pass
 
 
+#TODO
 @router.post('/posts')
 async def make_post(request: Request, post: Post, token=Depends(oauth_scheme)):
     pass

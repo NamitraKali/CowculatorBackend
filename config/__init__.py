@@ -1,9 +1,9 @@
+import os
 from pydantic import BaseSettings
 
-
 class CommonSettings(BaseSettings):
-    APP_NAME: str = "Cowculator"
-    DEBUG_MODE: bool = True
+    APP_NAME: str = os.environ.get("APP_NAME", "Cowculator")
+    DEBUG_MODE: bool = os.environ.get("DEBUG_MODE", False)
 
 
 class ServerSettings(BaseSettings):
@@ -12,8 +12,8 @@ class ServerSettings(BaseSettings):
 
 
 class DatabaseSettings(BaseSettings):
-    DB_URL: str = "mongodb+srv://NamKali:pratima01@testcluster.jpjks.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-    DB_NAME: str = "Cowculator"
+    DB_URL: str = os.environ.get(DB_URL)
+    DB_NAME: str = os.environ.get("Cowculator")
 
 
 class Settings(CommonSettings, ServerSettings, DatabaseSettings):
