@@ -10,8 +10,6 @@ cryptography==3.4.7
 dnspython==2.0.0
 fastapi==0.63.0
 h11==0.12.0
-mkl-random==1.1.1
-mkl-service==2.3.0
 motor==2.3.0
 multidict==5.1.0
 numpy==1.19.2
