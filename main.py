@@ -21,4 +21,8 @@ async def shutdown_db_client():
     app.mongodb_client.close()
 
 
+@app.get('/')
+def index():
+    return {'data': "Hello World"}
+
 app.include_router(user_router)
