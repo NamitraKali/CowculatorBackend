@@ -1,41 +1,39 @@
-aiohttp @ file:///D:/bld/aiohttp_1614281086591/work
-argon2-cffi @ file:///D:/bld/argon2-cffi_1605217273648/work
+aiohttp==3.7.4
 async-timeout==3.0.1
-attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
-bcrypt @ file:///C:/ci/bcrypt_1597936263757/work
+attrs==20.3.0
+bcrypt==3.2.0
 certifi==2020.12.5
-cffi @ file:///D:/bld/cffi_1613414140225/work
-chardet @ file:///D:/bld/chardet_1610093646853/work
+cffi==1.14.5
+chardet==4.0.0
 click==7.1.2
-cryptography @ file:///D:/bld/cryptography_1616851649655/work
-dnspython @ file:///home/conda/feedstock_root/build_artifacts/dnspython_1599005870470/work
-fastapi @ file:///home/conda/feedstock_root/build_artifacts/fastapi_1610101993319/work
-h11 @ file:///home/conda/feedstock_root/build_artifacts/h11_1609518832927/work
-idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1609836280497/work
+cryptography==3.4.7
+dnspython==2.0.0
+fastapi==0.63.0
+h11==0.12.0
 mkl-fft==1.3.0
 mkl-random==1.1.1
 mkl-service==2.3.0
-motor @ file:///home/conda/feedstock_root/build_artifacts/motor_1605902279291/work
-multidict @ file:///D:/bld/multidict_1610319170773/work
-numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
-pandas @ file:///C:/ci/pandas_1618365634936/work
+motor==2.3.0
+multidict==5.1.0
+numpy==1.19.2
+pandas==1.2.4
 passlib==1.7.4
-pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
-pydantic @ file:///D:/bld/pydantic_1614893279359/work
-PyJWT @ file:///home/conda/feedstock_root/build_artifacts/pyjwt_1617199158555/work
-pymongo @ file:///D:/bld/pymongo_1617619307276/work
-python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
-python-dotenv @ file:///home/conda/feedstock_root/build_artifacts/python-dotenv_1617408971533/work
+pycparser==2.20
+pydantic==1.8.1
+PyJWT==2.0.1
+pymongo==3.11.0
+python-dateutil==2.8.1
+python-dotenv==0.17.0
 python-multipart==0.0.5
-pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
+pytz==2021.1
 PyYAML==5.4.1
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
-starlette @ file:///home/conda/feedstock_root/build_artifacts/starlette_1595508258730/work
-tornado @ file:///D:/bld/tornado_1610094858390/work
-typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
+six==1.15.0
+starlette==0.13.6
+tornado==6.1
+typing-extensions==3.7.4.3
 uuid==1.30
-uvicorn @ file:///D:/bld/uvicorn_1613844917870/work
-watchgod @ file:///home/conda/feedstock_root/build_artifacts/watchgod_1592453122359/work
-websockets @ file:///D:/bld/websockets_1610127685432/work
+uvicorn==0.13.4
+watchgod==0.6
+websockets==8.1
 wincertstore==0.2
-yarl @ file:///D:/bld/yarl_1610354399983/work
+yarl==1.6.2
