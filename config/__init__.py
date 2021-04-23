@@ -12,7 +12,7 @@ class ServerSettings(BaseSettings):
 
 
 class DatabaseSettings(BaseSettings):
-    DB_URL: str = os.environ.get(DB_URL)
+    DB_URL: str = os.environ.get("DB_URL")
     DB_NAME: str = os.environ.get("Cowculator")
 
 
