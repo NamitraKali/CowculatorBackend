@@ -23,6 +23,6 @@ async def shutdown_db_client():
 
 @app.get('/')
 def index():
-    return {'data': "Hello World"}
+    return {'data': "Hello World!"}
 
 app.include_router(user_router)
